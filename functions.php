@@ -6,9 +6,10 @@ function cf_theme_setup() {
 	add_theme_support('post-thumbnails');
 	add_post_type_support( 'page', 'excerpt' );
 
-	register_nav_menus(
-		array('main-menu' => __('Main Menu', 'GGM-CeciliaFredriksson'))
-	);
+	register_nav_menus(array(
+		'main-menu' => 'Main Menu',
+		'secondary-menu' => 'Secondary menu'
+	));
 }
 
 add_action('wp_enqueue_scripts', 'cf_load_scripts');
@@ -19,7 +20,7 @@ function cf_load_scripts() {
 	wp_enqueue_style('foundation', get_template_directory_uri().'/css/foundation.min.css');
 }
 
-// GGMs logga i wordpress-dashboard-header
+// GGMs logo in wordpress-dashboard-header
 function custom_admin_logo() {
 	echo '
         <style type="text/css">
@@ -42,9 +43,4 @@ function custom_admin_logo() {
 }
 add_action('admin_head', 'custom_admin_logo');
 
-// Skapa en meny 
-register_nav_menus(array('Menu' => 'Menu'));
-
-// Lägg till thumbnails
-add_theme_support( 'post-thumbnails' );
 require 'library/cpt-team.php';

@@ -65,7 +65,7 @@ table {
 /* line 49, ../scss/_config.scss */
 html body {
   font-family: "gesta", serif;
-  background-color: #fafafa;
+  background-color: white;
   color: #2e2e2e;
   font-size: 16px;
   font-weight: 100;
@@ -92,12 +92,12 @@ a:visited {
 
 /* line 66, ../scss/_config.scss */
 a:hover {
-  color: #f36c4f;
+  color: white;
 }
 
 /* line 67, ../scss/_config.scss */
 a:active {
-  color: #f36c4f;
+  color: white;
 }
 
 /* line 69, ../scss/_config.scss */
@@ -150,7 +150,7 @@ h3 {
 
 /* line 81, ../scss/_config.scss */
 .secondary-font-color {
-  color: #f36c4f;
+  color: white;
 }
 
 /* line 82, ../scss/_config.scss */
@@ -199,8 +199,65 @@ strong {
   margin-top: 50px !important;
 }
 
+/* line 35, ../scss/app.scss */
+.unfolded {
+  left: -210px;
+  transition: left 0.2s ease-in-out;
+}
+
+/* line 40, ../scss/app.scss */
+.folded {
+  left: 0;
+  transition: left 0.2s ease-in-out;
+}
+
 /* HEADER */
-/* MAIN MENU */
+/* line 47, ../scss/app.scss */
+header {
+  background-image: url("../img/hero.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* MENUS */
+/* line 57, ../scss/app.scss */
+.main-menu {
+  background-color: black;
+  position: fixed;
+  top: 34px;
+  height: 100vh;
+  max-width: 300px;
+  width: 100%;
+}
+/* line 65, ../scss/app.scss */
+.main-menu .menu-item-logotype {
+  display: block;
+  background-image: url("../img/logotype.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 156px;
+  width: 100%;
+  height: 50px;
+  text-indent: -9000px;
+}
+/* line 75, ../scss/app.scss */
+.main-menu .hamburger-menu {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: white;
+  font-size: 3em;
+}
+
+/* line 84, ../scss/app.scss */
+.secondary-menu {
+  position: fixed;
+  top: 34px;
+  right: 0;
+}
+
 /* SOCIAL MEDIA */
 /* HOME */
 /* PROGRAM */
