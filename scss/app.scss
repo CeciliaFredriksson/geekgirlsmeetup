@@ -1,0 +1,56 @@
+/**
+*	@author	Cecilia Fredriksson
+*	@date	2016-03-10
+*	@copy	www.ceciliafredriksson.com
+*/
+@import "reset";
+@import "config";
+
+/* GLOBAL */
+
+.display {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+.center {
+	text-align: center;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.margin-medium {
+	margin-bottom: $margin-medium !important;
+}
+
+.margin-top-medium {
+	margin-top: $margin-medium !important;
+}
+
+/* HEADER */
+
+/* MAIN MENU */
+
+/* SOCIAL MEDIA */
+
+/* HOME */
+
+/* PROGRAM */
+
+/* LIVE STREAM */
+
+/* FOOTER */
+
+
+@media all and (max-width: $tablet-breakpoint) {
+	@import "tablet";
+}
+
+@media all and (max-width: $mobile-breakpoint) {
+	@import "mobile";
+}

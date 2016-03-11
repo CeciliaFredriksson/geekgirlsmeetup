@@ -1,0 +1,222 @@
+/**
+*	@author	Cecilia Fredriksson
+*	@date	2016-03-10
+*	@copy	www.ceciliafredriksson.com
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../scss/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 16, ../scss/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 19, ../scss/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../scss/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 25, ../scss/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 29, ../scss/_reset.scss */
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+/* line 34, ../scss/_reset.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 38, ../scss/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**
+*	@author	Cecilia Fredriksson
+*	@date	2016-03-10
+*	@copy	www.ceciliafredriksson.com
+*	@usage	Set up all the basics before anything else here.
+*/
+/* line 49, ../scss/_config.scss */
+html body {
+  font-family: "gesta", serif;
+  background-color: #fafafa;
+  color: #2e2e2e;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 28px;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 60, ../scss/_config.scss */
+p {
+  margin: 0 0 15px 0;
+}
+
+/* line 64, ../scss/_config.scss */
+a:link {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+
+/* line 65, ../scss/_config.scss */
+a:visited {
+  color: #2e2e2e;
+}
+
+/* line 66, ../scss/_config.scss */
+a:hover {
+  color: #f36c4f;
+}
+
+/* line 67, ../scss/_config.scss */
+a:active {
+  color: #f36c4f;
+}
+
+/* line 69, ../scss/_config.scss */
+h1 {
+  font-size: 42px;
+  line-height: 50px;
+}
+
+/* line 70, ../scss/_config.scss */
+h2 {
+  font-size: 35px;
+  line-height: 50px;
+}
+
+/* line 71, ../scss/_config.scss */
+h3 {
+  font-size: 35px;
+  line-height: 50px;
+}
+
+/* line 73, ../scss/_config.scss */
+.font-xl {
+  font-size: 65px;
+}
+
+/* line 74, ../scss/_config.scss */
+.font-large {
+  font-size: 42px;
+}
+
+/* line 75, ../scss/_config.scss */
+.font-medium {
+  font-size: 35px;
+}
+
+/* line 76, ../scss/_config.scss */
+.font-small {
+  font-size: 16px;
+}
+
+/* line 77, ../scss/_config.scss */
+.font-smaller {
+  font-size: 12px;
+}
+
+/* line 79, ../scss/_config.scss */
+.margin-bottom-large {
+  margin-bottom: 80px;
+}
+
+/* line 81, ../scss/_config.scss */
+.secondary-font-color {
+  color: #f36c4f;
+}
+
+/* line 82, ../scss/_config.scss */
+.success-color {
+  color: green;
+}
+
+/* line 83, ../scss/_config.scss */
+.alert-color {
+  color: red;
+}
+
+/* line 85, ../scss/_config.scss */
+ul li {
+  list-style-type: none;
+}
+
+/* GLOBAL */
+/* line 11, ../scss/app.scss */
+.display {
+  display: block;
+}
+
+/* line 15, ../scss/app.scss */
+.hide {
+  display: none;
+}
+
+/* line 19, ../scss/app.scss */
+.center {
+  text-align: center;
+}
+
+/* line 23, ../scss/app.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 27, ../scss/app.scss */
+.margin-medium {
+  margin-bottom: 50px !important;
+}
+
+/* line 31, ../scss/app.scss */
+.margin-top-medium {
+  margin-top: 50px !important;
+}
+
+/* HEADER */
+/* MAIN MENU */
+/* SOCIAL MEDIA */
+/* HOME */
+/* PROGRAM */
+/* LIVE STREAM */
+/* FOOTER */
+@media all and (max-width: 1024px) {
+  /**
+  *	@author	Ccilia Frediksson
+  *	@date	2016-02-10
+  *	@copy	www.ceciliafredrikson.com
+  */
+}
+@media all and (max-width: 640px) {
+  /**
+  *	@author	Cecilia Fredriksson
+  *	@date	2016-03-10
+  *	@copy	www.ceciliafredriksson.com
+  */
+}

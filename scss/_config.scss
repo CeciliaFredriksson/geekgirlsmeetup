@@ -1,0 +1,87 @@
+/**
+*	@author	Cecilia Fredriksson
+*	@date	2016-03-10
+*	@copy	www.ceciliafredriksson.com
+*	@usage	Set up all the basics before anything else here.
+*/
+
+// SETTINGS START
+
+// Responsive breakpoints
+$mobile-breakpoint: 640px;
+$tablet-breakpoint: 1024px;
+// Fonts
+$font-family: 'gesta', serif;
+//$font-family-secondary: 'Work Sans', sans-serif;
+
+// Colors
+$main-font-color: #2e2e2e;
+$secondary-font-color: #f36c4f;
+$main-background-color: #FAFAFA;
+$secondary-background-color: #f36c4f;
+$success-color: green;
+$alert-color: red;
+
+
+// Sizes
+$font-xl: 65px;
+$font-large: 42px;
+$font-medium: 35px;
+$font-default: 22px;
+$font-small: 16px;
+$font-smaller: 12px;
+$default-line-height: 28px;
+$medium-line-height: 50px;
+$large-line-height: 80px;
+
+// Links
+$active-color: $main-font-color;
+$click-color: $secondary-font-color;
+$hover-color: $secondary-font-color;
+$decoration: none;
+
+// Margins
+$margin-large: 80px;
+$margin-medium: 50px;
+$margin-default: 15px;
+
+// SETTINGS END
+html body {
+	font-family: $font-family;
+	background-color: $main-background-color;
+	color: $main-font-color;
+	font-size: $font-small;
+	font-weight: 100;
+	line-height: $default-line-height;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0 0 $margin-default 0;
+}
+
+a:link { text-decoration: $decoration; color: $main-font-color;}
+a:visited { color: $main-font-color; }
+a:hover { color: $hover-color; }
+a:active { color: $hover-color; }
+
+h1 { font-size: $font-large; line-height: $margin-medium;}
+h2 { font-size: $font-medium; line-height: $margin-medium;}
+h3 { font-size: $font-medium; line-height: $margin-medium;}
+
+.font-xl { font-size: $font-xl; }
+.font-large { font-size: $font-large; }
+.font-medium { font-size: $font-medium; }
+.font-small { font-size: $font-small; }
+.font-smaller { font-size: $font-smaller; }
+
+.margin-bottom-large { margin-bottom: $margin-large;}
+
+.secondary-font-color { color: $secondary-font-color; }
+.success-color { color: $success-color; }
+.alert-color { color: $alert-color; }
+
+ul li {
+	list-style-type: none;
+}
