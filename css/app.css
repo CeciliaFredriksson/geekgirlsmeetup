@@ -62,7 +62,7 @@ table {
 *	@copy	www.ceciliafredriksson.com
 *	@usage	Set up all the basics before anything else here.
 */
-/* line 51, ../scss/_config.scss */
+/* line 52, ../scss/_config.scss */
 html body {
   font-family: "gibson", sans-serif;
   background-color: white;
@@ -74,14 +74,14 @@ html body {
   margin: 0;
 }
 
-/* line 62, ../scss/_config.scss */
+/* line 63, ../scss/_config.scss */
 p {
   margin: 0 0 15px 0;
   font-size: 16px;
   font-weight: 400;
 }
 
-/* line 68, ../scss/_config.scss */
+/* line 69, ../scss/_config.scss */
 a {
   font-weight: 600;
   -webkit-transition: all 0.2s ease-in-out;
@@ -90,104 +90,104 @@ a {
   transition: all 0.2s ease-in-out;
 }
 
-/* line 76, ../scss/_config.scss */
+/* line 77, ../scss/_config.scss */
 a:link {
   text-decoration: none;
   color: white;
 }
 
-/* line 77, ../scss/_config.scss */
+/* line 78, ../scss/_config.scss */
 a:visited {
   color: white;
 }
 
-/* line 78, ../scss/_config.scss */
+/* line 79, ../scss/_config.scss */
 a:hover {
   color: #333333;
 }
 
-/* line 79, ../scss/_config.scss */
+/* line 80, ../scss/_config.scss */
 a:active {
   color: #333333;
 }
 
-/* line 81, ../scss/_config.scss */
-h1 {
-  font-size: 42px;
-  line-height: 50px;
-  font-weight: 400;
-}
-
 /* line 82, ../scss/_config.scss */
-h2 {
+h1 {
   font-size: 38px;
   line-height: 50px;
   font-weight: 400;
 }
 
 /* line 83, ../scss/_config.scss */
+h2 {
+  font-size: 38px;
+  line-height: 50px;
+  font-weight: 400;
+}
+
+/* line 84, ../scss/_config.scss */
 h3 {
   font-size: 38px;
   line-height: 50px;
   font-weight: 400;
 }
 
-/* line 85, ../scss/_config.scss */
+/* line 86, ../scss/_config.scss */
 .font-xl {
   font-size: 65px;
 }
 
-/* line 86, ../scss/_config.scss */
+/* line 87, ../scss/_config.scss */
 .font-large {
   font-size: 42px;
 }
 
-/* line 87, ../scss/_config.scss */
+/* line 88, ../scss/_config.scss */
 .font-medium {
   font-size: 38px;
 }
 
-/* line 88, ../scss/_config.scss */
+/* line 89, ../scss/_config.scss */
 .font-small {
   font-size: 16px;
 }
 
-/* line 89, ../scss/_config.scss */
+/* line 90, ../scss/_config.scss */
 .font-smaller {
   font-size: 12px;
 }
 
-/* line 91, ../scss/_config.scss */
+/* line 92, ../scss/_config.scss */
 .margin-bottom-large {
   margin-bottom: 90px;
 }
 
-/* line 92, ../scss/_config.scss */
+/* line 93, ../scss/_config.scss */
 .padding-large-topbottom {
   padding: 90px 0;
 }
 
-/* line 93, ../scss/_config.scss */
+/* line 94, ../scss/_config.scss */
 .padding-large-leftright {
   padding: 0 90px;
 }
 
-/* line 95, ../scss/_config.scss */
+/* line 96, ../scss/_config.scss */
 .secondary-font-color {
   color: white;
 }
 
-/* line 96, ../scss/_config.scss */
+/* line 97, ../scss/_config.scss */
 .success-color {
   color: green;
 }
 
-/* line 97, ../scss/_config.scss */
+/* line 98, ../scss/_config.scss */
 .alert-color {
   color: red;
 }
 
-/* line 99, ../scss/_config.scss */
+/* line 100, ../scss/_config.scss */
 ul li {
   list-style-type: none;
 }
@@ -304,7 +304,7 @@ header {
 /* line 104, ../scss/app.scss */
 .main-menu a {
   font-size: 1.6em;
-  line-height: 80px;
+  line-height: 60px;
   display: block;
   letter-spacing: 1px;
 }
@@ -345,92 +345,108 @@ header {
 /* line 141, ../scss/app.scss */
 .secondary-menu {
   position: fixed;
+  z-index: 1337;
   top: 62px;
-  right: 15px;
+  right: 0;
 }
-/* line 146, ../scss/app.scss */
+/* line 147, ../scss/app.scss */
 .secondary-menu li {
   display: block;
   background-repeat: no-repeat;
   height: 40px;
-  margin: 15px;
+  margin: 15px 0;
 }
-/* line 151, ../scss/app.scss */
+/* line 152, ../scss/app.scss */
 .secondary-menu li a {
   color: transparent;
 }
 
-/* line 157, ../scss/app.scss */
+/* line 158, ../scss/app.scss */
 .stream {
   background-image: url("../img/youtube.png");
 }
 
-/* line 160, ../scss/app.scss */
+/* line 161, ../scss/app.scss */
 .mail {
   background-image: url("../img/mail.png");
 }
 
-/* line 163, ../scss/app.scss */
+/* line 164, ../scss/app.scss */
 .facebook {
   background-image: url("../img/facebook.png");
 }
 
-/* line 166, ../scss/app.scss */
+/* line 167, ../scss/app.scss */
 .instagram {
   background-image: url("../img/instagram.png");
 }
 
-/* line 169, ../scss/app.scss */
+/* line 170, ../scss/app.scss */
 .twitter {
   background-image: url("../img/facebook.png");
 }
 
-/* line 172, ../scss/app.scss */
+/* line 173, ../scss/app.scss */
 .linkedin {
   background-image: url("../img/facebook.png");
 }
 
-/* line 175, ../scss/app.scss */
+/* line 176, ../scss/app.scss */
 .website {
   background-image: url("../img/youtube.png");
 }
 
-/* line 178, ../scss/app.scss */
+/* line 179, ../scss/app.scss */
 .snapchat {
   background-image: url("../img/facebook.png");
 }
 
 /* HOME */
-/* line 185, ../scss/app.scss */
+/* line 186, ../scss/app.scss */
 .cf-ticket-section article {
   padding: 0 30px;
 }
 
-/* line 191, ../scss/app.scss */
+/* line 192, ../scss/app.scss */
 .cf-moderator-section a, .cf-talare-section a {
   color: #333333;
 }
-/* line 193, ../scss/app.scss */
+/* line 194, ../scss/app.scss */
 .cf-moderator-section a:hover, .cf-talare-section a:hover {
   color: #01c0f4;
 }
 
-/* line 199, ../scss/app.scss */
+/* line 200, ../scss/app.scss */
+.the-grid {
+  text-align: center;
+}
+/* line 202, ../scss/app.scss */
+.the-grid li {
+  list-style: none;
+  display: inline-table;
+  margin: 0 15px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 20%;
+}
+
+/* line 213, ../scss/app.scss */
 figcaption h2 {
   margin: 25px 0;
 }
 
 /* SINGLE PAGE */
-/* line 205, ../scss/app.scss */
-body.single header {
+/* line 219, ../scss/app.scss */
+body.single header, body.page-template-page-program header {
   display: none;
 }
 
-/* line 209, ../scss/app.scss */
+/* line 223, ../scss/app.scss */
 .social-media-icons {
   margin: 100px 0;
 }
-/* line 211, ../scss/app.scss */
+/* line 225, ../scss/app.scss */
 .social-media-icons li {
   display: inline-block;
   background-repeat: no-repeat;
@@ -439,23 +455,73 @@ body.single header {
   max-width: 70px;
   margin-bottom: 30px;
 }
-/* line 218, ../scss/app.scss */
+/* line 232, ../scss/app.scss */
 .social-media-icons li a {
   color: transparent;
 }
 
 /* PROGRAM */
+/* line 239, ../scss/app.scss */
+.cf-program-section {
+  border-bottom: none;
+  font-weight: 400;
+  padding: 45px 0;
+}
+/* line 243, ../scss/app.scss */
+.cf-program-section:first-child {
+  padding: 90px 0 45px 0;
+}
+/* line 246, ../scss/app.scss */
+.cf-program-section .cf-program {
+  border-bottom: 1px solid #555;
+}
+/* line 249, ../scss/app.scss */
+.cf-program-section p, .cf-program-section ul {
+  margin: 0;
+  padding: 15px;
+}
+/* line 253, ../scss/app.scss */
+.cf-program-section .cf-program-label, .cf-program-section .cf-program-saturday, .cf-program-section .cf-program-sunday {
+  color: white;
+}
+/* line 256, ../scss/app.scss */
+.cf-program-section .cf-program-saturday {
+  background-color: #01c0f4;
+  padding: 0;
+}
+/* line 261, ../scss/app.scss */
+.cf-program-section .cf-program-sunday {
+  background-color: #f7931e;
+  padding: 0;
+}
+/* line 266, ../scss/app.scss */
+.cf-program-section .cf-program-label {
+  background-color: #b2b2b2;
+}
+/* line 270, ../scss/app.scss */
+.cf-program-section li {
+  display: inline-block;
+}
+/* line 273, ../scss/app.scss */
+.cf-program-section .cf-programpunkt, .cf-program-section .cf-talare {
+  width: 39%;
+}
+/* line 276, ../scss/app.scss */
+.cf-program-section .cf-tid, .cf-program-section .cf-rum {
+  width: 10%;
+}
+
 /* LIVE STREAM */
 /* FOOTER */
-/* line 230, ../scss/app.scss */
+/* line 285, ../scss/app.scss */
 .copyright {
   margin: 15px 0;
 }
-/* line 232, ../scss/app.scss */
+/* line 287, ../scss/app.scss */
 .copyright a {
   color: #333333;
 }
-/* line 234, ../scss/app.scss */
+/* line 289, ../scss/app.scss */
 .copyright a:hover {
   color: #01c0f4;
 }
@@ -466,6 +532,73 @@ body.single header {
   *	@date	2016-02-10
   *	@copy	www.ceciliafredrikson.com
   */
+  /* line 7, ../scss/_tablet.scss */
+  h2 {
+    font-size: 22px;
+    line-height: 1.4;
+    font-weight: 600;
+  }
+
+  /* line 13, ../scss/_tablet.scss */
+  .the-grid li {
+    margin: 10px;
+    width: 28%;
+  }
+
+  /* line 18, ../scss/_tablet.scss */
+  .cf-program-section .cf-program .cf-tid, .cf-program-section .cf-program .cf-rum, .cf-program-section .cf-program .cf-programpunkt, .cf-program-section .cf-program .cf-talare {
+    display: block;
+    width: 100%;
+  }
+
+  /* line 23, ../scss/_tablet.scss */
+  .cf-programpunkt {
+    font-weight: 600;
+  }
+
+  /* line 28, ../scss/_tablet.scss */
+  .cf-program-section h2 p {
+    font-size: 22px;
+  }
+
+  /* line 33, ../scss/_tablet.scss */
+  .cf-program-section .cf-program-saturday {
+    background-color: #b2b2b2;
+  }
+
+  /* line 37, ../scss/_tablet.scss */
+  .cf-program-section .cf-program-sunday {
+    background-color: #b2b2b2;
+  }
+
+  /* line 42, ../scss/_tablet.scss */
+  .cf-program-section.saturday .cf-program {
+    border-bottom: none;
+    margin: 15px 0 0 0;
+    background-color: #01c0f4;
+  }
+
+  /* line 49, ../scss/_tablet.scss */
+  .cf-program-section.sunday .cf-program {
+    border-bottom: none;
+    margin: 15px 0 0 0;
+    background-color: #f7931e;
+  }
+
+  /* line 55, ../scss/_tablet.scss */
+  .cf-program-section.saturday .lunch, .cf-program-section.sunday .lunch {
+    background-color: #ef3ba0;
+  }
+
+  /* line 59, ../scss/_tablet.scss */
+  .cf-program-section.saturday .registrering, .cf-program-section.saturday .efterfest {
+    background-color: #f7931e;
+  }
+
+  /* line 63, ../scss/_tablet.scss */
+  .cf-program-section.sunday .registrering {
+    background-color: #01c0f4;
+  }
 }
 @media all and (max-width: 640px) {
   /**
@@ -473,24 +606,23 @@ body.single header {
   *	@date	2016-03-10
   *	@copy	www.ceciliafredriksson.com
   */
-  /* line 8, ../scss/_mobile.scss */
-  h2 {
-    font-size: 22px;
-    line-height: 1.4;
-    font-weight: 600;
-  }
-
-  /* line 14, ../scss/_mobile.scss */
+  /* line 7, ../scss/_mobile.scss */
   .page-wrapper {
     padding: 20px;
   }
 
-  /* line 18, ../scss/_mobile.scss */
+  /* line 11, ../scss/_mobile.scss */
   .cf-ticket-section article {
     padding: 0;
   }
 
-  /* line 22, ../scss/_mobile.scss */
+  /* line 15, ../scss/_mobile.scss */
+  .cf-program-section article {
+    padding: 0;
+    margin-top: 15px;
+  }
+
+  /* line 20, ../scss/_mobile.scss */
   .mobile-menu {
     background-color: black;
     position: fixed;
@@ -499,23 +631,23 @@ body.single header {
     right: 0;
     z-index: 1337;
   }
-  /* line 29, ../scss/_mobile.scss */
+  /* line 27, ../scss/_mobile.scss */
   .mobile-menu li {
     border-bottom: 1px solid #555;
   }
-  /* line 31, ../scss/_mobile.scss */
+  /* line 29, ../scss/_mobile.scss */
   .mobile-menu li:last-child {
     border: none;
   }
-  /* line 34, ../scss/_mobile.scss */
+  /* line 32, ../scss/_mobile.scss */
   .mobile-menu li:first-child {
     border: none;
   }
-  /* line 37, ../scss/_mobile.scss */
+  /* line 35, ../scss/_mobile.scss */
   .mobile-menu li:nth-child(2) {
     border-top: 1px solid #555;
   }
-  /* line 42, ../scss/_mobile.scss */
+  /* line 40, ../scss/_mobile.scss */
   .mobile-menu a {
     font-size: 1.2em;
     line-height: 50px;
@@ -523,7 +655,7 @@ body.single header {
     letter-spacing: 1px;
     padding: 0 20px;
   }
-  /* line 49, ../scss/_mobile.scss */
+  /* line 47, ../scss/_mobile.scss */
   .mobile-menu .menu-item-logotype {
     display: block;
     background-image: url("../img/logotype.png");
@@ -535,7 +667,7 @@ body.single header {
     text-indent: -9000px;
   }
 
-  /* line 61, ../scss/_mobile.scss */
+  /* line 59, ../scss/_mobile.scss */
   .mobile-hamburger-menu {
     position: absolute;
     top: 15px;
@@ -544,22 +676,28 @@ body.single header {
     font-size: 2em;
   }
 
-  /* line 70, ../scss/_mobile.scss */
+  /* line 68, ../scss/_mobile.scss */
   .mobile-unfolded .menu-main-menu-container {
     display: none;
   }
 
-  /* line 75, ../scss/_mobile.scss */
+  /* line 73, ../scss/_mobile.scss */
   .fa-bars {
     color: black;
   }
 
-  /* line 80, ../scss/_mobile.scss */
+  /* line 78, ../scss/_mobile.scss */
   .cf-moderator-section li {
     padding: 0!important;
   }
 
-  /* line 88, ../scss/_mobile.scss */
+  /* line 83, ../scss/_mobile.scss */
+  .the-grid li {
+    margin: 0;
+    width: 100%;
+  }
+
+  /* line 90, ../scss/_mobile.scss */
   footer .social-media-icons li {
     display: inline-block;
     background-repeat: no-repeat;
@@ -567,7 +705,7 @@ body.single header {
     width: 100%;
     max-width: 15%;
   }
-  /* line 94, ../scss/_mobile.scss */
+  /* line 96, ../scss/_mobile.scss */
   footer .social-media-icons li a {
     color: transparent;
   }

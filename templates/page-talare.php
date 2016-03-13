@@ -9,7 +9,7 @@
 ?>
 
 <h2 class="center">Alla talare</h2>
-<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4">
+<ul class="the-grid">
 <?php
 	$the_query = new WP_query(
 		array(

@@ -3,3 +3,63 @@
 *	@date	2016-02-10
 *	@copy	www.ceciliafredrikson.com
 */
+
+h2 {
+	font-size: $font-default;
+	line-height: 1.4;
+	font-weight: 600;
+}
+
+.the-grid li {
+	margin: 10px;
+    width: 28%;
+}
+
+.cf-program-section .cf-program .cf-tid, .cf-program-section .cf-program .cf-rum, .cf-program-section .cf-program .cf-programpunkt, .cf-program-section .cf-program .cf-talare {
+	display: block;
+	width: 100%;
+}
+
+.cf-programpunkt {
+	font-weight: 600;
+}
+
+.cf-program-section {
+	h2 p {
+		font-size: 22px;
+	}
+}
+
+.cf-program-section .cf-program-saturday {
+	background-color: #b2b2b2;
+}
+
+.cf-program-section .cf-program-sunday {
+	background-color: #b2b2b2;
+}
+
+
+.cf-program-section.saturday .cf-program {
+	border-bottom: none;
+	margin: $margin-default 0 0 0;
+	background-color: $main-ggm-color;
+}
+
+
+.cf-program-section.sunday .cf-program {
+	border-bottom: none;
+	margin: $margin-default 0 0 0;
+	background-color: $second-ggm-color;
+}
+
+.cf-program-section.saturday .lunch, .cf-program-section.sunday .lunch {
+	background-color: #ef3ba0;
+}
+
+.cf-program-section.saturday .registrering, .cf-program-section.saturday .efterfest {
+	background-color: $second-ggm-color;
+}
+
+.cf-program-section.sunday .registrering {
+	background-color: $main-ggm-color;
+}
