@@ -17,6 +17,7 @@ $font-family: 'gibson', sans-serif;
 $main-font-color: #333;
 $secondary-font-color: #FFF;
 $main-ggm-color: #01c0f4;
+$second-ggm-color: #f7931e;
 $main-background-color: #FFF;
 $secondary-background-color: #000;
 $success-color: green;
@@ -78,7 +79,7 @@ a:visited { color: $secondary-font-color; }
 a:hover { color: $hover-color; }
 a:active { color: $hover-color; }
 
-h1 { font-size: $font-large; line-height: $margin-medium; font-weight: $font-regular}
+h1 { font-size: $font-medium; line-height: $margin-medium; font-weight: $font-regular}
 h2 { font-size: $font-medium; line-height: $margin-medium; font-weight: $font-regular}
 h3 { font-size: $font-medium; line-height: $margin-medium; font-weight: $font-regular}
 

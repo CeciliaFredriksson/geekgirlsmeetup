@@ -103,7 +103,7 @@ header {
 
 	a {
 		font-size: 1.6em;
-		line-height: $large-line-height;
+		line-height: $medium-line-height+10;
 		display: block;
 		letter-spacing: 1px;
 	}
@@ -140,14 +140,15 @@ header {
 
 .secondary-menu {
 	position: fixed;
+	z-index: 1337;
 	// REMOVE
 	top: 62px;
-	right: $margin-default;
+	right: 0;
 	li {
 		display: block;
 		background-repeat: no-repeat;
 		height: 40px;
-		margin: $margin-default;
+		margin: $margin-default 0;
 		a {
 			color: transparent;
 		}
@@ -196,13 +197,26 @@ header {
 	}
 }
 
+.the-grid { 
+	text-align: center;
+	li {
+		list-style: none;
+		display: inline-table;
+		margin: 0 $margin-default;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+		width: 20%;
+	}
+}
+
 figcaption h2 {
 	margin: ($margin-medium/2) 0;
 }
 
 /* SINGLE PAGE */
 
-body.single header {
+body.single header, body.page-template-page-program header {
     display: none;
 }
 
@@ -222,6 +236,47 @@ body.single header {
 }
 
 /* PROGRAM */
+.cf-program-section {
+	border-bottom: none;
+	font-weight: 400;
+	padding: 45px 0;
+	&:first-child {
+		padding: $margin-large 0 ($margin-large/2) 0;
+	}
+	.cf-program {
+		border-bottom: 1px solid #555;
+	}
+	p , ul {
+		margin: 0;
+		padding: $margin-default;
+	}
+	.cf-program-label, .cf-program-saturday, .cf-program-sunday {
+		color: $secondary-font-color;
+	}
+	.cf-program-saturday {
+		background-color: $main-ggm-color;
+		padding: 0;
+	}
+	
+	.cf-program-sunday {
+		background-color: #f7931e;
+		padding: 0;
+	}
+	
+	.cf-program-label {
+		background-color: #b2b2b2;
+	}
+	
+	li {
+		display: inline-block;
+	}
+	.cf-programpunkt, .cf-talare {
+		width: 39%;
+	}
+	.cf-tid, .cf-rum {
+		width: 10%;
+	}
+}
 
 /* LIVE STREAM */
 
