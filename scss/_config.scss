@@ -11,12 +11,12 @@
 $mobile-breakpoint: 640px;
 $tablet-breakpoint: 1024px;
 // Fonts
-$font-family: 'gesta', serif;
-//$font-family-secondary: 'Work Sans', sans-serif;
+$font-family: 'gibson', sans-serif;
 
 // Colors
-$main-font-color: #2e2e2e;
+$main-font-color: #333;
 $secondary-font-color: #FFF;
+$main-ggm-color: #01c0f4;
 $main-background-color: #FFF;
 $secondary-background-color: #000;
 $success-color: green;
@@ -26,22 +26,24 @@ $alert-color: red;
 // Sizes
 $font-xl: 65px;
 $font-large: 42px;
-$font-medium: 35px;
+$font-medium: 38px;
 $font-default: 22px;
 $font-small: 16px;
 $font-smaller: 12px;
 $default-line-height: 28px;
 $medium-line-height: 50px;
 $large-line-height: 80px;
+$font-regular: 400;
+$font-semibold: 600;
 
 // Links
 $active-color: $main-font-color;
 $click-color: $secondary-font-color;
-$hover-color: $secondary-font-color;
+$hover-color: $main-font-color;
 $decoration: none;
 
 // Margins
-$margin-large: 80px;
+$margin-large: 90px;
 $margin-medium: 50px;
 $margin-default: 15px;
 
@@ -59,16 +61,26 @@ html body {
 
 p {
 	margin: 0 0 $margin-default 0;
+	font-size: $font-small;
+	font-weight: $font-regular;
 }
 
-a:link { text-decoration: $decoration; color: $main-font-color;}
-a:visited { color: $main-font-color; }
+a {
+	font-weight: $font-semibold;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+a:link { text-decoration: $decoration; color: $secondary-font-color;}
+a:visited { color: $secondary-font-color; }
 a:hover { color: $hover-color; }
 a:active { color: $hover-color; }
 
-h1 { font-size: $font-large; line-height: $margin-medium;}
-h2 { font-size: $font-medium; line-height: $margin-medium;}
-h3 { font-size: $font-medium; line-height: $margin-medium;}
+h1 { font-size: $font-large; line-height: $margin-medium; font-weight: $font-regular}
+h2 { font-size: $font-medium; line-height: $margin-medium; font-weight: $font-regular}
+h3 { font-size: $font-medium; line-height: $margin-medium; font-weight: $font-regular}
 
 .font-xl { font-size: $font-xl; }
 .font-large { font-size: $font-large; }
@@ -77,6 +89,8 @@ h3 { font-size: $font-medium; line-height: $margin-medium;}
 .font-smaller { font-size: $font-smaller; }
 
 .margin-bottom-large { margin-bottom: $margin-large;}
+.padding-large-topbottom { padding: $margin-large 0; }
+.padding-large-leftright { padding: 0 $margin-large; }
 
 .secondary-font-color { color: $secondary-font-color; }
 .success-color { color: $success-color; }

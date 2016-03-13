@@ -43,4 +43,5 @@ function custom_admin_logo() {
 }
 add_action('admin_head', 'custom_admin_logo');
 
-require 'library/cpt-team.php';
+require 'library/cpt-moderator.php';
+require 'library/cpt-talare.php';

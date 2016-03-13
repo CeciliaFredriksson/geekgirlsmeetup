@@ -3,3 +3,97 @@
 *	@date	2016-03-10
 *	@copy	www.ceciliafredriksson.com
 */
+
+
+h2 {
+	font-size: $font-default;
+	line-height: 1.4;
+	font-weight: 600;
+}
+
+.page-wrapper {
+	padding: 20px;
+}
+
+.cf-ticket-section article {
+	padding: 0;
+}
+
+.mobile-menu {
+	background-color: $secondary-background-color;
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+	z-index: 1337;
+	li {
+		border-bottom: 1px solid #555;
+		&:last-child {
+			border: none;
+		}
+		&:first-child {
+			border: none;
+		}
+		&:nth-child(2) {
+			border-top: 1px solid #555;
+		}
+	}
+
+	a {
+		font-size: 1.2em;
+		line-height: $medium-line-height;
+		display: block;
+		letter-spacing: 1px;
+		padding: 0 20px;
+	}
+	.menu-item-logotype {
+		display: block;
+		background-image: url('../img/logotype.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		max-width: 150px;
+		margin-top: 15px;
+		margin-left: 15px;
+		text-indent: -9000px;
+	}
+}
+
+.mobile-hamburger-menu {
+	position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #fff;
+    font-size: 2em;
+}
+
+.mobile-unfolded {
+	.menu-main-menu-container {
+		display: none;
+	}
+}
+
+.fa-bars {
+	color: $secondary-background-color;
+}
+
+.cf-moderator-section {
+	li {
+		padding: 0!important;
+	}
+}
+
+
+footer {
+	.social-media-icons {
+		li {
+		    display: inline-block;
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 100%;
+			max-width: 15%;
+			a {
+				color: transparent;
+			}
+		}
+	}
+}
