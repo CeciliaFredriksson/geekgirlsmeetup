@@ -2,7 +2,7 @@
 get_header();
 ?>
 
-	<section class="cf-ticket-section row">
+	<section id="biljetter" class="cf-ticket-section row">
 		<a class="cf-btn" href="#">Buy your ticket</a>
 		<article class="small-12 medium-12 medium-centered large-8 large-centered columns">
 	
@@ -21,10 +21,10 @@ get_header();
 ?>
 		</article>
 	</section>
-	<section class="cf-moderator-section row">
+	<section id="moderatorer" class="cf-moderator-section row">
 		<?php get_template_part('templates/page-moderatorer')?>
 	</section>
-	<section class="cf-talare-section row">
+	<section id="talare" class="cf-talare-section row">
 		<?php get_template_part('templates/page-talare')?>
 	</section>
 	<article class="small-12 medium-12 medium-centered large-8 large-centered columns">
@@ -43,6 +43,9 @@ get_header();
 		}
 ?>
 	</article>
+	<section id="sponsorer" class="cf-sponsorer-section row">
+		<?php echo 'sponsorer här'; ?>
+	</section>
 </div>
 <?php 
 get_footer();
